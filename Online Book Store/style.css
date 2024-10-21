@@ -1,0 +1,80 @@
+
+/* General Carousel Styles */
+.carousel-caption {
+    position: absolute;
+    bottom: 20%;
+    left: 5%;
+    text-align: left;
+}
+
+/* Highlighted Text Styling */
+.highlighted-text {
+    background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent black background */
+    color: #ffffff; /* White text for contrast */
+    padding: 10px 15px;
+    border-radius: 8px;
+    display: inline-block; /* Ensures the highlight fits the text content */
+    margin-bottom: 10px;
+}
+
+.carousel-caption p {
+    font-size: 1.25rem;
+}
+
+.carousel-caption h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+#myCarousel {
+    height: 500px; /* Adjust the height as needed */
+}
+
+#myCarousel .carousel-item {
+    height: 500px; /* Ensure the slides match the carousel height */
+}
+/* Explore Button - Default State */
+.explore-btn {
+    background-color: white; /* Default background color */
+    color: black; /* Default text color */
+    border: 2px solid black; /* Border to define button structure */
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all 0.3s ease; /* Smooth transition for hover effect */
+}
+
+/* Hover State - Background changes and text color swaps */
+.explore-btn:hover {
+    background-color: black; /* Change background to black */
+    color: white; /* Change text color to white */
+    cursor: pointer; /* Show pointer on hover */
+}
+
+
+body {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    color: rgb(var(--bs-tertiary-color-rgb));
+}
+body {
+    margin: 0;
+    font-family: var(--bs-body-font-family);
+    font-size: var(--bs-body-font-size);
+    font-weight: var(--bs-body-font-weight);
+    line-height: var(--bs-body-line-height);
+    color: var(--bs-body-color);
+    text-align: var(--bs-body-text-align);
+    background-color: var(--bs-body-bg);
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+user agent stylesheet
+body {
+    display: block;
+    margin: 8px;
+}
